@@ -3,12 +3,15 @@ My Friend System - PHP / MySQL
 
 
 -- Create the database if it does not exist
+
 CREATE DATABASE IF NOT EXISTS friendappdb;
 
 -- Use the specified database
+
 USE friendappdb;
 
 -- Create the 'friends' table
+
 CREATE TABLE IF NOT EXISTS friends (
     friend_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     friend_email VARCHAR(50) NOT NULL,
@@ -19,6 +22,7 @@ CREATE TABLE IF NOT EXISTS friends (
 );
 
 -- Create the 'myfriends' table
+
 CREATE TABLE IF NOT EXISTS myfriends (
     friend_id1 INT NOT NULL,
     friend_id2 INT NOT NULL,
