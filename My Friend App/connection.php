@@ -3,7 +3,7 @@
 $servername = "localhost"; // Assuming the database is on the same server as your PHP script
 $username = "root";
 $password = ""; // Change this to your password
-$database = "s103736434_db"; // Change this to your actual database name
+$database = "friendappdb"; // Change this to your actual database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
